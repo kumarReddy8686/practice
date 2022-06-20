@@ -17,6 +17,10 @@ public class StringSwapping {
 		x = y;
 		y = temp;
 		System.out.println("after swapping:" + "\nx=" + x + "\ny=" + y);
+		
+		//strings 
+		String str = "Kumar";
+		System.out.println(str.substring(1));
 
 		sc.close();
 
