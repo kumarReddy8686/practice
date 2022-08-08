@@ -1,0 +1,22 @@
+package basics;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class ArrayClass {
+
+	public static void main(String[] args) {
+
+		int[] num = { 10, 30, 5, 45, 89, 76 };
+		String[] cities = { "vizag", "hyderabad", "banglore" };
+		List<String> list = Arrays.asList(cities);
+		System.out.println(list);
+		Arrays.sort(num);
+		System.out.println(Arrays.toString(num));
+		
+		String[] states = {"Andhra","telangana","karanataka","kerala"};
+		String st=Arrays.toString(states);
+		System.out.println(st);
+	}
+
+}
